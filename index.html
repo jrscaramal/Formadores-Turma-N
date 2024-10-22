@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Flashcard Turma N</title>
+</head>
+<body>
+    <main>
+        <section id="container">
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Arte</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        <p>O que é Foley?</p>
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        <p>O Foley é um processo utilizado para criar ou recriar sons de objetos para as suas produções audiovisuais.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Matemática</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        <p>Caminhando ao fim da tarde, uma senhora contou 20 casas em uma rua à sua direita. No regresso, ela contou
+                            20 casas à sua esquerda. Quantas casas ela viu no total?</p>
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        <p>A senhora viu 20 casas no total, porque a sua direita na ida é a sua esquerda na volta, ou seja, nos dois
+                            itinerários, ela viu e contou as mesmas casas, e não casas diferentes.</p>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="cartão">
+                <div class="cartao__conteudo">
+                    <h3>Biologia</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        <p>Qual a importância das abelhas para o ecossistema?</p>
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        <p>As abelhas auxiliam na ponilização de plantas, através de flores, assim auxiliando para a expansão e
+                            reprodução das espécies nativas de determinada região.</p>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Pergunta 1</h3>
+                    <p>Qual é a fórmula da área do círculo?</p>
+                    <button onclick="document.getElementById('resposta1').style.display='block'">Mostrar Resposta</button>
+                    <p id="resposta1" style="display:none;">A = πr²</p>
+                </div>
+            </article>
+            
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Pergunta 2</h3>
+                    <p>Qual é a soma dos ângulos internos de um triângulo?</p>
+                    <button onclick="document.getElementById('resposta2').style.display='block'">Mostrar Resposta</button>
+                    <p id="resposta2" style="display:none;">180 graus</p>
+                </div>
+            </article>
+        </section>
+
+        <footer>
+            <p>Projeto desenvolvido pela Turma N - 3ª Jornada</p>
+        </footer>  
+        
+    </main>
+</body>
+</html>
